@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.mytechnoeye">
+    package="com.example.invsysit">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher_background"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyTechnoEye"
+        android:theme="@style/Theme.InvSysIT"
         tools:targetApi="31">
         <activity
-            android:name=".Destroy"
+            android:name=".Register_act"
             android:exported="false" />
         <activity
-            android:name=".Camera"
+            android:name=".Magasin0430"
+            android:exported="false" />
+        <activity
+            android:name=".Stockage"
+            android:exported="false" />
+        <activity
+            android:name=".Choice_act"
+            android:exported="false" />
+        <activity
+            android:name=".Modification"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

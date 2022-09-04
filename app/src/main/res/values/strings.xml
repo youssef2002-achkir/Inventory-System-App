@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyTechnoEye</string>
+    <string name="app_name">InvSysIT</string>
+    <string name="select">Choisir SF</string>
 </resources>

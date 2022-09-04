@@ -3,9 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MOBILE/MyTechnoEye/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.1" />
-        <entry key="..\:/MOBILE/MyTechnoEye/app/src/main/res/layout/activity_camera.xml" value="0.22447916666666667" />
-        <entry key="..\:/MOBILE/MyTechnoEye/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.13333333333333333" />
+        <entry key="..\:/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.13333333333333333" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_choice.xml" value="0.22447916666666667" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_dashboard.xml" value="0.23298429319371727" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_magasin0430.xml" value="0.25" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_modification.xml" value="0.25" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/activity_stockage.xml" value="0.22447916666666667" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/list_items.xml" value="0.1" />
+        <entry key="..\:/MOBILE/InvSysIT/app/src/main/res/layout/simple_spinner_item.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

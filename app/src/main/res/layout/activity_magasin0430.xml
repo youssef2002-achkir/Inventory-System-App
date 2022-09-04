@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Magasin0430">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="K0340"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Retour"
+                android:id="@+id/back_btn_k043"
+                />
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Stock"
+                android:id="@+id/sub_btn_k043"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/sp_articles_k043"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details d'article"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code:"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="60dp"
+                android:textSize="15dp"
+                android:id="@+id/article_code_k043"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Designation:"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:id="@+id/article_designation_k043"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prix unitaire:"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:id="@+id/article_pu_k043"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_designation_k043_L"
+            android:layout_margin="10dp"
+            android:text="empty"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@android:color/black"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details de Stock"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"/>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qte Stock"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"/>
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valeur Stock"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K0340"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:id="@+id/Qte_S_k043"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="70dp"
+                android:textSize="20dp"
+                android:id="@+id/valeur_S_k043"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K0320"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:id="@+id/Qte_S_k0320"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="70dp"
+                android:textSize="20dp"
+                android:id="@+id/valeur_S_k0320"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <androidx.constraintlayout.utils.widget.MotionLabel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="40dp"
+                android:textSize="20dp"
+                android:id="@+id/Qte_S_total"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="empty"
+                android:layout_marginLeft="70dp"
+                android:textSize="20dp"
+                android:id="@+id/valeur_S_total"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

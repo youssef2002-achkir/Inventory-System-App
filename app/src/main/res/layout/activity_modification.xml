@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modification">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ajouter Des informations"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/edit_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Empty"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:padding="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Etape courante"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/edit_etape"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Montant Retenue"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/edit_mt_retenue"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date Limite AMI"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/edit_dlami"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date Limite AO"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/edit_dlao"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Montant Final"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/edit_mt_finale"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Situation"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/edit_situation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mise a jour"
+                android:id="@+id/update_btn"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
