@@ -1,2 +1,2 @@
 # JPTDA
- Java Mobile Application With Tenserflow/python Models for object detection
+ Java Mobile Application With For manging an entreprise storage.
